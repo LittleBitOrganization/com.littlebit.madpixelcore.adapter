@@ -1,0 +1,1 @@
+# com.littlebit.madpixelcore.adapter

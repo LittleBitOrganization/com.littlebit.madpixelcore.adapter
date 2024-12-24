@@ -1,0 +1,20 @@
+{
+    "name": "com.littlebit.maxpixelcore.adapter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bdad3b75fc045499a865a145023fb3c3",
+        "GUID:9cae3e2fa4b80405cba68fd6432bac9a",
+        "GUID:69246b39d9114134eb297d386a5dfe4e",
+        "GUID:efd515a217c031a409bc0a6fb293c2b9",
+        "GUID:60bfecf5cb232594891bc622f40d6bed"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

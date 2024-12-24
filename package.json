@@ -1,0 +1,12 @@
+{
+  "name": "com.littlebit.madpixelcore.adapter",
+  "displayName": "Mad Pixel Core Adapter (MPC)",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "unityRelease": "6f1",
+  "description": "",
+  "category": "Module",
+  "author": {
+    "name": "LittleBitGames"
+  }
+}

@@ -1,7 +1,8 @@
 {
-    "name": "com.littlebit.maxpixelcore",
+    "name": "com.littlebit.madpixelcore",
     "rootNamespace": "",
     "references": [
+        "GUID:2a37df438292d4903b4e5159c5de3bf9",
         "GUID:b4f7b59e66f3b42cf95c5358d565c84f",
         "GUID:776d03a35f1b52c4a9aed9f56d7b4229",
         "GUID:cb703d3b13d724091940e24c8ced20a8",
@@ -16,7 +17,6 @@
         "GUID:a233deefe8df840f48e0648f292d73f8",
         "GUID:a4cfc1a18fa3a469b96d885db522f42e",
         "GUID:fe25561d224ed4743af4c60938a59d0b",
-        "GUID:2a37df438292d4903b4e5159c5de3bf9",
         "GUID:70ea675efa2644cef98c7ece24158333",
         "GUID:a10a05a8449c42519fd80f2b8b580de3"
     ],

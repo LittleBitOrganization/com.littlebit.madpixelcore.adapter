@@ -9,7 +9,7 @@ using MadPixel.InApps;
 using UnityEngine;
 using UnityEngine.Purchasing;
 
-namespace Adapter
+namespace LittleBit.MPC.Adapter.InApp
 {
     public class InAppMPCInitializer : IIAPService, IDisposable
     {

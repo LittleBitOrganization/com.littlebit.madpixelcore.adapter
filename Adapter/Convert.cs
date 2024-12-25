@@ -2,31 +2,35 @@ using System;
 using LittleBitGames.Environment.Ads;
 using MAXHelper;
 
-public class Convert
+namespace LittleBit.MPC.Adapter
 {
-    public class Ad
+    public class Convert
     {
-        public static AdsManager.EAdType ToMadPixel(AdType adType)
+        public class Ad
         {
-            switch (adType)
+            public static AdsManager.EAdType ToMadPixel(AdType adType)
             {
-                case AdType.Inter: return AdsManager.EAdType.INTER;
-                case AdType.Banner : return AdsManager.EAdType.BANNER;
-                case AdType.Rewarded: return AdsManager.EAdType.REWARDED;
+                switch (adType)
+                {
+                    case AdType.Inter: return AdsManager.EAdType.INTER;
+                    case AdType.Banner: return AdsManager.EAdType.BANNER;
+                    case AdType.Rewarded: return AdsManager.EAdType.REWARDED;
+                }
+
+                throw new NotImplementedException();
             }
 
-            throw new NotImplementedException();
-        }
-
-        public static AdType ToLittleBit(AdsManager.EAdType adType)
-        {
-            switch (adType)
+            public static AdType ToLittleBit(AdsManager.EAdType adType)
             {
-                case AdsManager.EAdType.INTER: return AdType.Inter;
-                case AdsManager.EAdType.BANNER : return AdType.Banner;
-                case AdsManager.EAdType.REWARDED: return AdType.Rewarded;
+                switch (adType)
+                {
+                    case AdsManager.EAdType.INTER: return AdType.Inter;
+                    case AdsManager.EAdType.BANNER: return AdType.Banner;
+                    case AdsManager.EAdType.REWARDED: return AdType.Rewarded;
+                }
+
+                throw new NotImplementedException();
             }
-            throw new NotImplementedException();
         }
     }
 }

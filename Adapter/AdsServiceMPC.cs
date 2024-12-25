@@ -1,15 +1,13 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using LittleBitGames.Ads;
 using LittleBitGames.Ads.AdUnits;
-using LittleBitGames.Ads.Configs;
 using LittleBitGames.Environment.Ads;
 using MAXHelper;
 using UnityEngine;
 
 
-public class AdsServiceMPC : MonoBehaviour, IAdsService
+public class AdsServiceMPC : IAdsService
 {
     private readonly AdsManager _adsManager;
     private readonly MAXCustomSettings _madPixelSettings;

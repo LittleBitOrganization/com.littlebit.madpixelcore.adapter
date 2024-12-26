@@ -73,8 +73,8 @@ namespace LittleBit.MPC.Adapter.InApp
                 OnPurchasingFailed?.Invoke(null);
             else
             {
-#if IAP_DEBUG || UNITY_EDITOR
                 var id = product.definition.id;
+#if IAP_DEBUG || UNITY_EDITOR
                 (GetProductWrapper(id) as EditorProductWrapper)!.Purchase();
 #endif
               

@@ -1,0 +1,19 @@
+{
+    "name": "com.littlebit.madpixelcore.maxhelper.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bdad3b75fc045499a865a145023fb3c3",
+        "GUID:a10a05a8449c42519fd80f2b8b580de3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
